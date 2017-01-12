@@ -36,7 +36,7 @@ var Weather = React.createClass({
   },
   componentDidMount: function () {
     var location = this.props.location.query.location;
-    
+
     if (location && location.length > 0) {
       this.handleSearch(location);
       window.location.hash = '#/';
@@ -69,7 +69,7 @@ var Weather = React.createClass({
     }
     return (
       <div>
-        <h1 className="text-center page-title">get weather</h1>
+        <h1 className="text-center page-title">What's the weather like today in ...</h1>
         <WeatherForm onSearch={this.handleSearch}/>
         {renderMessage()}
         {renderError()}
