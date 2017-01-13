@@ -19,7 +19,11 @@ body {
   font-size: 22px;
   font-weight: bold;
 }
-
+.about {
+  text-align: center;
+  background-color: white;
+  opacity: 0.8;
+}
 
 #weatherMessage {
   color:$title-color;
@@ -34,6 +38,9 @@ body {
 
 input[type=search] {
   box-shadow: none;
+  font-weight: bold;
+  color:black;
+
 }
 
 .citiesE {

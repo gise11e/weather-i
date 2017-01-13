@@ -6,7 +6,7 @@ var {Link} = require('react-router');
 var Examples =  (props) => {
   return (
     <div>
-      <h1 classNameName="text-center page-title">  🌎</h1>
+      <h1 className="text-center page-title">  🌎</h1>
       <ol>
         <li className="citiesE">
           <Link to='/?location=London'>London, UK</Link>
