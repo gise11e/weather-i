@@ -1,5 +1,7 @@
 var React = require('react');
 var {Link} = require('react-router');
+// var WeatherMessage = require ('WeatherMessage');
+
 
 var Examples =  (props) => {
   return (
@@ -37,7 +39,6 @@ var Examples =  (props) => {
         </li>
       </ol>
     </div>
-
   )
 };
 
