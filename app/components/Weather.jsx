@@ -68,7 +68,7 @@ var Weather = React.createClass({
       }
     }
     return (
-      <div>
+      <div className="columns medium-6 large-4 small-centered">
         <h1 className="text-center page-title">What's the weather like today in ...</h1>
         <WeatherForm onSearch={this.handleSearch}/>
         {renderMessage()}

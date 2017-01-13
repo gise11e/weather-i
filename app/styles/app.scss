@@ -16,8 +16,36 @@ body {
 }
 #weatherMessage {
   color:$title-color;
+  background-color: white;
+  opacity: 0.9;
 }
+// .weatherM {
+//   color:$title-color;
+//   background-color: white;
+//   opacity: 0.9;
+// }
 
 input[type=search] {
   box-shadow: none;
+}
+
+.citiesE {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 30px;
+  background-color: white;
+  opacity: 0.9;
+  padding: 15px;
+  margin:10px;
+  a {
+    color:gray;
+  }
+}
+
+ol {
+  overflow: hidden;
 }

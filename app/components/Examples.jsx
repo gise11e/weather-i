@@ -4,17 +4,35 @@ var {Link} = require('react-router');
 var Examples =  (props) => {
   return (
     <div>
-      <h1 className="text-center page-title">examples</h1>
-      <p>
-        here are some example locations to try out
-      </p>
+      <h1 classNameName="text-center page-title">  🌎</h1>
       <ol>
-        <li>
-          <Link to='/?location=London'>london, uk</Link>
+        <li className="citiesE">
+          <Link to='/?location=London'>London, UK</Link>
         </li>
-        <li>
+        <li className="citiesE">
+          <Link to='/?location=New York'>NYC, USA</Link>
+        </li>
+        <li className="citiesE">
+          <Link to='/?location=Buenos Aires'>Buenos Aires, ARG</Link>
+        </li>
+        <li className="citiesE">
+          <Link to='/?location=Victoria City'>Victoria City, HK</Link>
+        </li>
+        <li className="citiesE">
+          <Link to='/?location=Bali'>Bali</Link>
+        </li>
+        <li className="citiesE">
+            <Link to='/?location=Los Angeles'>Los Angeles, USA</Link>
+            </li>
+          <li className="citiesE">
+            <Link to='/?location=Tokyo'>Tokyo, JP</Link>
+          </li>
+            <li className="citiesE">
+              <Link to='/?location=Berlin'>Berlin, DE</Link>
+            </li>
+            <li className="citiesE">
           <Link to="/?location=rio">
-            rio, brazil
+            Rio de Janeiro, BR
           </Link>
         </li>
       </ol>
